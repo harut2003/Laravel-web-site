@@ -1,0 +1,65 @@
+h1{
+	margin-left: 30px;
+}
+img{
+	width: 315px;
+	height: 270px;
+	text-align: center;
+}
+.continer{
+	margin-top: 15px;
+	margin-left: 25px;
+	display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+.text  pre, h2 {
+	width: 350px;
+	white-space: pre-wrap;
+	padding: 0px;
+	font-family: verdana;
+}
+.subject{
+	padding: 20px; 
+	border-top: 3px solid black; 
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 30px;
+}
+.edit_del{
+	display: flex;
+}
+.edit_del > p:nth-child(1){
+	margin-right: 15px;
+}
+.edit_del, .text{
+	margin-top: 10px;
+}
+.img{
+	text-align: center;
+	background-color: white;
+}
+a{
+	text-decoration: none;}
+p a, a h2, a h3{
+	color: blue;
+}
+pre, p, h2, h3, h5{
+	color: black;
+}
+td{
+	margin: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 30px;
+}
+.create{
+	margin-left: 30px;
+}
+.users_{
+	margin-top: 25px;
+}
+.content-wrapper{
+	padding: 15px;
+}
